@@ -104,14 +104,14 @@ function Signup() {
 
 
     return (
-        <div className="bg-slate-50 flex justify-center items-center min-h-screen text-slate-900 font-roboto dark:bg-slate-700 
+        <div className="bg-slate-50 overflow-hidden flex justify-center items-center min-h-screen text-slate-900 font-roboto dark:bg-slate-700 
         ">
             {/* TOGGLE THEME BUTTON */}
             <button className="absolute top-0 right-3 mx-0 my-2 px-4 text-3xl" onClick={handleTheme}>{mode}</button>
             <div className="md:flex md:flex-1 md:items-center md:justify-center md:w-[700px] md:h-[550px] md:mx-auto md:my-auto md:rounded-lg
             ">
             <div className="
-            bg-gradient-to-r from-blue-500 to-indigo-600 w-screen py-3 font-bold m-0 space-y-2 text-xl pl-12
+            bg-gradient-to-r overflow-hidden from-blue-500 to-indigo-600 w-screen py-3 font-bold m-0 space-y-2 text-xl pl-12
             md:w-[268px] md:grid md:text-center md:h-full md:text-2xl md:font-bold md:m-0 md:p-6 rounded-l-lg
             dark:from-blue-700
             dark:to-indigo-700
