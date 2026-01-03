@@ -93,7 +93,7 @@ function Signup() {
         const newUser = {name: firstName, email: email, password: password}
         users.push(newUser)
         localStorage.setItem('users', JSON.stringify(users))
-        navigate('/login')
+        navigate('/')
     }
 
     // GOTO LOGIN PAGE IF USER HAS REGISTERED
