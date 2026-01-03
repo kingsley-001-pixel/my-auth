@@ -1,16 +1,42 @@
-# React + Vite
+# React Authentication App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React frontend authentication app** with **signup, login, and welcome pages**.  
+User data is stored in **localStorage** for learning and demo purposes.
 
-Currently, two official plugins are available:
+## Features
+- Signup and login pages
+- Welcome/dashboard page after login
+- Frontend routing using `react-router-dom` (`HashRouter`)
+- **Dark Mode toggle** for light/dark themes
+- Fully deployed and live on Vercel
+- **Dark Mode toggle** for light/dark themes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+Live demo: (https://my-auth-cuai.vercel.app)
 
-## React Compiler
+## Screenshots
+![Login Page](assets/screenshots/login.png)
+![Signup Page](assets/screenshots/signup.png)
+![Welcome Page](assets/screenshots/welcome.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*(Optional: add images of your app for better presentation)*
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- JavaScript
+- CSS
+- localStorage for user data
+- React Router (`HashRouter`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+- Node.js and npm installed
+- Git installed
+
+### Installation
+1. Clone the repository:
+
+```bash
+git clone https://github.com/kingsley-001-pixel/react-auth-app.git
+cd react-auth-app
