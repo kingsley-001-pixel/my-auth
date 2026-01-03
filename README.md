@@ -15,9 +15,9 @@ User data is stored in **localStorage** for learning and demo purposes.
 Live demo: (https://my-auth-cuai.vercel.app)
 
 ## Screenshots
-![Login Page](assets/screenshots/login.png)
-![Signup Page](assets/screenshots/signup.png)
-![Welcome Page](assets/screenshots/welcome.png)
+![Login Page](./src/assets/screenshots/login.png)
+![Signup Page](./src/assets/screenshots/signup.png)
+![Welcome Page](./src/assets/screenshots/welcome.png)
 
 *(Optional: add images of your app for better presentation)*
 
