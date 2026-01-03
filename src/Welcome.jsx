@@ -25,7 +25,7 @@ function Welcome({props, name='Guest'}) {
     function handleLogOut() {
         confirm('Are you sure you want to log out?')
         if (confirm) {
-            navigate('/login')
+            navigate('/')
         }
     }
 

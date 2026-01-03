@@ -98,7 +98,7 @@ function Signup() {
 
     // GOTO LOGIN PAGE IF USER HAS REGISTERED
     function handleLogin() {
-        navigate('/login')
+        navigate('/')
     }
 
 
@@ -225,7 +225,7 @@ function Signup() {
             </form>
             </div>
             </div>
-            
+
             {/* FOOTER SECTION */}
             <footer>
                 <div className="absolute mt-5 right-0  text-center left-0 bottom-[-22%]  md:absolute md:bottom-0 dark:text-slate-50 md:left-0 md:right-0  md:mb-2">
