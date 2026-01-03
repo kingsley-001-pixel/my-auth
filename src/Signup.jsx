@@ -107,7 +107,7 @@ function Signup() {
         <div className="bg-slate-50 flex justify-center items-center min-h-screen text-slate-900 font-roboto dark:bg-slate-700 
         ">
             {/* TOGGLE THEME BUTTON */}
-            <button className="absolute top-0 right-3 mx-0 my-2 px-2 text-3xl" onClick={handleTheme}>{mode}</button>
+            <button className="absolute top-0 right-3 mx-0 my-2 mr-4 px-2 text-3xl" onClick={handleTheme}>{mode}</button>
             <div className="md:flex md:flex-1 md:items-center md:justify-center md:w-[700px] md:h-[550px] md:mx-auto md:my-auto md:rounded-lg
             ">
             <div className="

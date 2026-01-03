@@ -42,7 +42,7 @@ function Login() {
         }
 
         // GETTING ALL USERS DATA TO COMPARE
-        const users = JSON.parse(localStorage.getItem('users'))
+        const users = JSON.parse(localStorage.getItem('users')) || []
         const user = users.find(u => u.email === email && u.password === password)
 
         
@@ -66,7 +66,7 @@ function Login() {
             <div className="bg-white min-w-[432px] h-full m-0 text-center p-6 rounded-r-lg grid justify-center items-center
             dark:bg-gray-900 relative">
                 {/* TOGGLE THEME BUTTON */}
-                <button className="absolute top-0 right-0 mx-0 my-2 px-2 text-3xl" onClick={handleTheme}>{mode}</button>
+                <button className="absolute top-0 right-0 mx-0 my-2 mr-5 px-2 text-3xl" onClick={handleTheme}>{mode}</button>
                 <form action="">
                 <h1 className="text-yellow-300 text-4xl font-bold">Animefy</h1>
                 <br />
