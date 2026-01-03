@@ -8,13 +8,11 @@ import Welcome from './Welcome.jsx'
 function App() {
 
   return (
-    <HashRouter>
     <Routes>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/' element={<Login/>}/>
       <Route path='/welcome' element={<Welcome/>}/>
     </Routes>
-  </HashRouter>
   )
 }
 
